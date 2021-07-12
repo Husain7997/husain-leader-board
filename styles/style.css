@@ -7,9 +7,29 @@ body{
     background-color: #9F9F9F;
     
 }
+header{
+   margin-left: 200px;
+}
+nav ul li{
+    list-style-type: none;
+    
+    padding: 10px 30px;
+}
 nav ul li a{
     text-decoration: none;
-    list-style: none;
+   font-size: 20px;
+   color: rgb(12, 243, 205);
+    
+}
+nav ul li a:hover{
+    background-color: aqua;
+    padding: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
 }
 main{
     
